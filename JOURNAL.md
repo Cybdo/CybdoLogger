@@ -1,6 +1,6 @@
 # Journal!
 
-Total so far: 0.5hrs across 1 journal
+Total so far: 1.75hrs across 2 journals
 
 ## 30/07/2026 - research and planning
 **(30 mins)**
@@ -25,3 +25,28 @@ and the RP2040 analyses the data from the keyboard while passing it along unmodi
 I also want to have a button where I can hold upon boot to have the device show up as USB mass storage to show the stored data, but that can be a later me problem. For now, just taking the SD card out and using it should be good enough.
 
 Tomorrow i start work on the pcb!!
+
+## 01/08/2026 - schematic work
+**(1 hour 15 mins)**
+
+and so i started with the schematics
+
+it shouldnt be too difficult, 2 USB ports, voltage reg, rp2040 minimum system and sd card
+
+used lcsc manager to import usb female + male and sd card components so i dont have the issue of mismatched footprints (cough cough cybdokey)
+
+<img width="540" height="305" alt="image" src="https://github.com/user-attachments/assets/959c7bd5-4798-4c38-896d-83cb6d113c0c" />
+
+usb upstream and downstream both with respective usb protection
+
+i am so confused how does this work i thought sd cards were spi 😭😭
+
+<img width="558" height="607" alt="image" src="https://github.com/user-attachments/assets/73078d49-237d-4f11-840f-e24dcd96dadd" />
+
+nvm 
+i reckon i got it
+
+<img width="358" height="329" alt="image" src="https://github.com/user-attachments/assets/00640757-8be6-4360-b276-9840981ea7d5" />
+
+<img width="1015" height="705" alt="image" src="https://github.com/user-attachments/assets/c722aab4-6796-48af-9b24-ce59397443fd" />
+that should be the minimum system done now! i also spent some time organising the schema. I deliberately left all the GPIO unconnected- ive found that its easier for me to lay out the pcb then figure out what gpios are easiest to route
