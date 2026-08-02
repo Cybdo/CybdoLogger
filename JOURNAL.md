@@ -1,6 +1,6 @@
 # Journal!
 
-Total so far: 2.5hrs across 3 journals
+Total so far: 4 hrs across 4 journals
 
 ## 30/07/2026 - research and planning
 **(30 mins)**
@@ -97,3 +97,62 @@ what if i put the sd slot under hmm.. its annoying to handsolder but will make m
 
 
 i spent the next like 15 minutes experimenting with different layouts to no avail :pf: i reckon current one is optimal since rp2040 gets the most room and tehres enoguh space for the xtal and SD card GPIO. button and bootsel will have to go under tho, no complaints about that
+
+
+## 02/08/2026 - more rounting
+**(1.5hrs)**
+
+added passives to sd card
+<img width="657" height="662" alt="image" src="https://github.com/user-attachments/assets/ebcb0ead-cb1b-490c-a97c-272c5453be44" />
+
+
+
+differential pairs and usb, respectfully, fuck you
+
+<img width="695" height="715" alt="image" src="https://github.com/user-attachments/assets/da179e88-e97e-4685-93ff-c1cb05a16ede" />
+
+WHY IS IT FLIPPED WHY BRO
+
+its fine im just going to put the usb male on the other side so d+ and d- swap
+
+why are rp2040's usb pins flipped man
+
+<img width="1128" height="518" alt="image" src="https://github.com/user-attachments/assets/2d6022c0-b19e-47ef-9cc1-87b409563181" />
+
+
+ok my life is a bit easier ig
+
+<img width="1173" height="567" alt="image" src="https://github.com/user-attachments/assets/76e52ac3-0fb0-444d-b808-5ffcb20a2524" />
+
+
+oh yea claude told me to add decoupling caps to the sd card + pullups on miso and mosi so im gonna do that asw
+
+i have been neglecting the silkscreen
+
+<img width="506" height="607" alt="image" src="https://github.com/user-attachments/assets/ea423e10-0883-4ea6-9dcd-54010e96d519" />
+
+i have still neglected the silkscreen but more stuff has happened
+
+<img width="1027" height="855" alt="image" src="https://github.com/user-attachments/assets/6369cc6e-d009-48cc-b0fa-62f7dd363f39" />
+
+what even is a groud plane 🥀 like my back layer is p clean rn icl but i cant figure out how to route my sd data lines cleanly 😭
+
+nevermind
+
+<img width="429" height="572" alt="image" src="https://github.com/user-attachments/assets/01533b4a-e5c3-48ae-8e8f-bbb7d67df3fa" />
+
+cooked
+
+<img width="519" height="664" alt="image" src="https://github.com/user-attachments/assets/1706f4df-fff6-4a0e-ae96-535d26a8b172" />
+
+
+what did i even do today
+
+i
+- figured out a layout im happy with (sd card on back side)
+- moved stuff around
+- routed
+- added bootsel + read_sd buttons and jumpers
+- added passives for the sd card 
+
+geez taht doesnt sound like 1.5 hrs of work but i swear it is 😭
