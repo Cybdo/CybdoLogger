@@ -1,6 +1,6 @@
 # Journal!
 
-Total so far: 4 hrs across 4 journals
+Total so far: 4 hrs 35 mins across 5 journals
 
 ## 30/07/2026 - research and planning
 **(30 mins)**
@@ -156,3 +156,29 @@ i
 - added passives for the sd card 
 
 geez taht doesnt sound like 1.5 hrs of work but i swear it is 😭
+
+# 02/08/2026 - hopefully done with routing maybe
+**(35 mins)**
+
+ok so according to Pico-PIO-USB, d+ and d- can be on any two sequential gpio, and d+ must be the lower numbered one of the two
+
+this should be fine then
+
+<img width="771" height="649" alt="image" src="https://github.com/user-attachments/assets/4de6f03c-0a4d-4d1f-993a-fc0c0bc37aef" />
+
+
+silkscreens cleaner now
+
+<img width="881" height="444" alt="image" src="https://github.com/user-attachments/assets/6ef52ac1-816b-47cc-b339-2392005ded89" />
+
+
+wired up the SPI for SD card asw, i had to move stuff around to line up with the rp2040's SPI0 interface on gpios 0-3 (the other two are just digital inputs for detection)
+
+<img width="399" height="329" alt="image" src="https://github.com/user-attachments/assets/fa18c18b-f8c8-41e6-8620-7f13fcfb7cfc" />
+
+i also moved some stuff around and did some power stuff at some point just to make room for the spi lines whilst trying my best to maintain a ground plane
+
+almost ALMOST done with hw but it also needs a load of polish icl
+
+<img width="547" height="787" alt="image" src="https://github.com/user-attachments/assets/4eceb220-531f-493a-b4eb-6b44ad00ba14" />
+
