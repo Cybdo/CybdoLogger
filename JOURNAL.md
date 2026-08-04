@@ -1,6 +1,6 @@
 # Journal!
 
-Total so far: 4 hrs 35 mins across 5 journals
+Total so far: 5 hrs 25 mins across 6 journals
 
 ## 30/07/2026 - research and planning
 **(30 mins)**
@@ -182,3 +182,39 @@ almost ALMOST done with hw but it also needs a load of polish icl
 
 <img width="547" height="787" alt="image" src="https://github.com/user-attachments/assets/4eceb220-531f-493a-b4eb-6b44ad00ba14" />
 
+# 04/08/2026
+
+**(50 mins)**
+**Lapse: https://lapse.hackclub.com/timelapse/_ES3VHXqs-sg**
+
+I've decided to start lapsing my work esp since now im just polishing up and will have a lot less to write about for hardware
+
+anyways i added decoupling caps to the 2040 and i have a technically functional board now!!
+
+<img width="331" height="859" alt="image" src="https://github.com/user-attachments/assets/9cb1dd1d-65de-421f-a158-1777edbf164f" />
+
+i'm going to spend a lot of time polishing this now.
+
+i had a stroke when i routed this
+
+<img width="522" height="584" alt="image" src="https://github.com/user-attachments/assets/d80bf182-83be-4e6f-9a97-0feeed34f24d" />
+
+i mean its a bit better now ig
+
+<img width="552" height="642" alt="image" src="https://github.com/user-attachments/assets/9f0d612d-f538-4c6f-9c49-d8f374fbb937" />
+
+its so much better now
+
+<img width="319" height="667" alt="image" src="https://github.com/user-attachments/assets/20d7b4b9-14b5-44ee-be2f-479436ac64cb" />
+
+I think i have room for a mounting hole, it will make my life so much easier when i design a case for it
+
+nevermind 😔
+
+so apparentl i need pull ups on all data pins so i have to somehow fit 2 moer resistors onmy board\
+
+WHERE
+
+<img width="713" height="542" alt="image" src="https://github.com/user-attachments/assets/4914834a-d6fc-4b51-a903-8078ea316821" />
+
+nvm i got room i will add it tmrw im tried
