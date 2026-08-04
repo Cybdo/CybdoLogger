@@ -4568,14 +4568,6 @@
 		(uuid "fdeae040-27fa-4aa0-9c2c-c2384ea598da")
 	)
 	(no_connect
-		(at 237.49 133.35)
-		(uuid "3629ae10-6930-4391-a0ae-ace614483229")
-	)
-	(no_connect
-		(at 237.49 115.57)
-		(uuid "79e702f3-8b13-45dd-9375-e72f4679ca3b")
-	)
-	(no_connect
 		(at 107.95 172.72)
 		(uuid "7a83bb24-1ff6-4e3e-8e1b-7bbcf7a6bab5")
 	)
@@ -11410,6 +11402,89 @@
 			(project "CybdoLogger"
 				(path "/e939ef7a-dfe1-4274-9efe-d128b1e8aa52"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "R_1")
+		(lib_id "Device:R")
+		(at 207.01 144.78 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a789354e-c87b-4ed6-a363-99669e8a6b1a")
+		(property "Reference" "R10"
+			(at 209.55 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kR"
+			(at 209.55 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 208.788 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 207.01 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00f46e39-c179-4360-964a-49dffbaafb3e")
+		)
+		(pin "2"
+			(uuid "10760b28-951c-4e5c-a981-06358909b62d")
+		)
+		(instances
+			(project "CybdoLogger"
+				(path "/e939ef7a-dfe1-4274-9efe-d128b1e8aa52"
+					(reference "R10")
 					(unit 1)
 				)
 			)
