@@ -1,6 +1,6 @@
 # Journal!
 
-Total so far: 5 hrs 25 mins across 6 journals
+Total so far: 6 hrs 21 mins across 7 journals
 
 ## 30/07/2026 - research and planning
 **(30 mins)**
@@ -218,3 +218,39 @@ WHERE
 <img width="713" height="542" alt="image" src="https://github.com/user-attachments/assets/4914834a-d6fc-4b51-a903-8078ea316821" />
 
 nvm i got room i will add it tmrw im tried
+
+# 06/08/2026 - finishing up pcb
+**(56 mins)**
+**lapse: https://lapse.hackclub.com/timelapse/Bne-rbyORBZy**
+
+allllll rgihtty the pcb is now complete
+
+i added the extra pull ups and polished a bit, the ground plane is a lot healthier now
+
+<img width="410" height="870" alt="image" src="https://github.com/user-attachments/assets/fa061fb3-9792-4bf5-b126-b293e861a6f7" />
+
+im going to export steps and work on the case now
+
+ACTUALLY wait no im going to add some silkscreen shennanigans
+
+<img width="505" height="517" alt="image" src="https://github.com/user-attachments/assets/371c067c-7d0c-4e4d-bbdb-cc7d4b78dc45" />
+
+noice
+
+now im gonna do case
+
+im making a snap fit 2 part case for this
+
+
+snap
+
+<img width="901" height="774" alt="image" src="https://github.com/user-attachments/assets/e84088fd-3d4e-42e4-98fa-c79a1c25df90" />
+
+and fit
+
+<img width="755" height="355" alt="image" src="https://github.com/user-attachments/assets/fa3345eb-594d-4fab-a7dc-c391b5141e32" />
+
+
+alr so intheory the case snaps and fits but it hits the pcb in some places so i'll rework teh case aronud that tomorrow
+
+<img width="679" height="650" alt="image" src="https://github.com/user-attachments/assets/117705ee-f352-4945-aef1-62dc48a8a238" />
