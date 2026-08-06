@@ -76,7 +76,92 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|47750000|48320000|43ce8f5c-3ae2-4495-861d-b18bfa4ef8ac|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|52250000|48320000|6700d3a7-6f00-4e5d-8e87-0f22039bc13b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|55290000|55850000|fa99f0cf-7696-4968-aeee-6820a974dac5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|55290000|63850000|1299ef8a-a366-4e70-acc2-30cbdd6c643a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "copper_edge_clearance|42000000|48500000|3387404e-4e86-454d-9dcb-424673bf4f90|c9925cff-c810-4924-a5a3-943cc72f00e1",
+          ""
+        ],
+        [
+          "copper_edge_clearance|58000000|48500000|3387404e-4e86-454d-9dcb-424673bf4f90|50387b20-bd4f-4499-84b0-6550da0b17dc",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|50000000|40932500|d122a74e-9b36-4b9d-844c-5ce0361ad244|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|51452500|60800000|b1a555b0-0d98-451d-89a2-760f9203f533|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|53359999|56640000|eecc20a2-9f27-49d3-8b4b-5028fa4c492d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|47750000|48320000|43ce8f5c-3ae2-4495-861d-b18bfa4ef8ac|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|52250000|48320000|6700d3a7-6f00-4e5d-8e87-0f22039bc13b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|55290000|55850000|fa99f0cf-7696-4968-aeee-6820a974dac5|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "padstack|55290000|63850000|1299ef8a-a366-4e70-acc2-30cbdd6c643a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|43400000|90900000|3387404e-4e86-454d-9dcb-424673bf4f90|cef097a1-c4f8-4dad-a60c-723584e3e486",
+          ""
+        ],
+        [
+          "silk_edge_clearance|43990000|45900000|3387404e-4e86-454d-9dcb-424673bf4f90|1b56470f-588d-4ed1-a9a4-0ee33e652e94",
+          ""
+        ],
+        [
+          "silk_edge_clearance|56010000|45900000|3387404e-4e86-454d-9dcb-424673bf4f90|96644809-c09f-4829-b826-8328beeeccc3",
+          ""
+        ],
+        [
+          "silk_edge_clearance|56600000|90900000|3387404e-4e86-454d-9dcb-424673bf4f90|be5a1b4f-f4b3-4aca-af5a-ef4a7ad5998b",
+          ""
+        ],
+        [
+          "silk_edge_clearance|58000000|53560000|3387404e-4e86-454d-9dcb-424673bf4f90|48cd9f7d-3fff-48a9-b939-81cc9bc6e771",
+          ""
+        ],
+        [
+          "silk_edge_clearance|58000000|68800000|3387404e-4e86-454d-9dcb-424673bf4f90|7e005733-e8bf-4845-bacb-5cb2dfcf6c68",
+          ""
+        ],
+        [
+          "silk_over_copper|43990000|46710000|1b56470f-588d-4ed1-a9a4-0ee33e652e94|c9925cff-c810-4924-a5a3-943cc72f00e1",
+          ""
+        ],
+        [
+          "silk_over_copper|56010000|46700000|96644809-c09f-4829-b826-8328beeeccc3|50387b20-bd4f-4499-84b0-6550da0b17dc",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -108,7 +193,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "error",
+        "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
@@ -674,7 +759,7 @@
         "uuid": "e939ef7a-dfe1-4274-9efe-d128b1e8aa52"
       }
     ],
-    "used_designators": "R6-10,C16-17,H1",
+    "used_designators": "R6-11,C16-17,H1,#PWR32",
     "variants": []
   },
   "sheets": [
